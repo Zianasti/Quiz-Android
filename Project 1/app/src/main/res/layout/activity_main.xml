@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/idTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20sp"
+        android:gravity="center"
+        android:text="@string/title"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/etNama"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/idTitle"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="15sp"
+        android:ems="19"
+        android:hint="@string/nama"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/etNim"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/etNama"
+        android:layout_marginLeft="15sp"
+        android:ems="19"
+        android:hint="@string/nim"
+        android:inputType="number"
+        android:minHeight="48dp"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/etMtk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etNim"
+        android:layout_marginLeft="15sp"
+        android:ems="19"
+        android:hint="@string/nilai_mtk"
+        android:inputType="number"
+        android:minHeight="48dp"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/etBind"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etMtk"
+        android:layout_marginLeft="15sp"
+        android:ems="19"
+        android:hint="@string/nilai_bind"
+        android:inputType="number"
+        android:minHeight="48dp"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/etBing"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etBind"
+        android:layout_marginLeft="15sp"
+        android:ems="19"
+        android:hint="@string/nilai_bing"
+        android:inputType="number"
+        android:minHeight="48dp"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/etFisk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etBing"
+        android:layout_marginLeft="15sp"
+        android:ems="19"
+        android:hint="@string/nilai_fis"
+        android:inputType="number"
+        android:minHeight="48dp"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/etBio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etFisk"
+        android:layout_marginLeft="15sp"
+        android:ems="19"
+        android:hint="@string/nilai_bio"
+        android:inputType="number"
+        android:minHeight="48dp"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/kirim"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/etBio"
+        android:layout_centerHorizontal="true"
+        android:text="@string/bt_kirim"
+        android:layout_marginTop="10dp" />
+</RelativeLayout>

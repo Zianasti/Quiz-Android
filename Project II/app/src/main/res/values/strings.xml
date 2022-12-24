@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Project 2</string>
+    <string name="nama">Nama</string>
+    <string name="no_hp">No. Handphone</string>
+    <string name="email">Email</string>
+    <string name="tvJK">Jenis Kelamin</string>
+    <string name="laki_laki">Laki-Laki</string>
+    <string name="perempuan">Perempuan</string>
+    <string name="tvBahasa">Kemampuan Bahasa</string>
+    <string name="bind">Bahasa Indonesia</string>
+    <string name="bing">Bahasa Inggris</string>
+    <string name="mandarin">Bahasa Mandarin</string>
+    <string name="prancis">Bahasa Prancis</string>
+    <string name="arab">Bahasa Arab</string>
+    <string name="rusia">Bahasa Rusia</string>
+    <string name="tvCourse">Course</string>
+    <string name="send">Kirim</string>
+    <string name="titleInput">Input Data</string>
+    <string name="harga">Harga</string>
+    <string name="diskon">Diskon</string>
+    <string name="titleLihat">Lihat Data</string>
+    <string name="total">Total Harga</string>
+
+    <string-array name="course">
+        <item>Pengenalan Pemrograman</item>
+        <item>Machine Learning</item>
+        <item>Mobile Development</item>
+        <item>Jaringan Komputer untuk Pemula</item>
+        <item>React Web Developer Expert</item>
+        <item>Membangun Arsitektur Microservices</item>
+        <item>Cloud Computing</item>
+    </string-array>
+</resources>

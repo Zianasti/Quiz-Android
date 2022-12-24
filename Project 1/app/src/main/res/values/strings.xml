@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Project 1</string>
+    <string name="title">Nilai Siswa</string>
+    <string name="nama">Nama</string>
+    <string name="nim">NIM</string>
+    <string name="nilai_mtk">Nilai Matematika</string>
+    <string name="nilai_bind">Nilai Bahasa Indonesia</string>
+    <string name="nilai_bing">Nilai Bahasa Inggris</string>
+    <string name="nilai_fis">Nilai Fisika</string>
+    <string name="nilai_bio">Nilai Biologi</string>
+    <string name="nilai_rata2">Nilai Rata-Rata</string>
+    <string name="mutu">Huruf Mutu</string>
+    <string name="bt_kirim">Kirim</string>
+    <string name="bt_kembali">Kembali</string>
+</resources>
